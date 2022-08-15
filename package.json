@@ -15,9 +15,6 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open"
   },
-  "devDependencies": {
-   
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gadaba21/2139941-big-trip-simple-18.git"
@@ -27,5 +24,23 @@
   "bugs": {
     "url": "https://github.com/Gadaba21/2139941-big-trip-simple-18/issues"
   },
-  "homepage": "https://github.com/Gadaba21/2139941-big-trip-simple-18#readme"
+  "homepage": "https://github.com/Gadaba21/2139941-big-trip-simple-18#readme",
+  "dependencies": {
+    "dayjs": "1.11.3",
+    "flatpickr": "4.6.13",
+    "he": "1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
+    "babel-loader": "8.2.5",
+    "copy-webpack-plugin": "10.2.4",
+    "css-loader": "6.7.1",
+    "eslint": "8.19.0",
+    "eslint-config-htmlacademy": "6.0.0",
+    "style-loader": "3.3.1",
+    "webpack": "5.73.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  }
 }
